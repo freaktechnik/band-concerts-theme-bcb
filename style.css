@@ -1,0 +1,30 @@
+/*
+ Theme Name:   Band Concerts Theme BCB Variante
+ Description:  BCB Anpassungen für BCT
+ Author:       Martin Giger
+ Author URI:   https://humanoids.be
+ Template:     band-concerts-theme
+ Version:      1.0.0
+ License:      MIT
+ License URI:  https://opensource.org/licenses/MIT
+ Tags:         responsive-layout, band-concerts
+ Text Domain:  band-concerts-theme-bcb
+*/
+
+ul.menu,
+header nav.menu > ul,
+header .sub-menu,
+header .children {
+    font-family: 'Libre Baskerville', serif;
+}
+
+header .spanner,
+#menubutton,
+header .menu li > ul.sub-menu,
+header .menu li > ul.children {
+    box-shadow: none !important;
+}
+
+a:not(.image).button:hover {
+    border-bottom: 1px solid var(--accent-color);
+}

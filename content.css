@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway");
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+textarea, input[type='text'], input[type='number'], input[type='email'], input[type='tel'] {
+    font-family: 'Raleway', sans-serif;
+}
